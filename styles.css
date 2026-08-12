@@ -1,1 +1,32 @@
-/* your code */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    margin: 10px;
+    width: 95%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th{
+    text-align: left;
+    
+    color: white;
+    
+}
+tr:nth-child(odd){
+    background-color: rgb(38, 93, 203,0.2);
+}
+tr:first-child{
+    background-color: rgb(38, 93, 203);
+}
+
+
+th,td{
+    padding: 10px;
+   
+}
